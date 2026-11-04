@@ -1,0 +1,9 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: confeipay
+      POSTGRES_USER: confeipay
+      POSTGRES_PASSWORD: confeipay
+    ports:
+      - "5432:5432"
